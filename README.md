@@ -1,4 +1,5 @@
 # node-transferable-options
+[![Build Status](https://travis-ci.org/stefanpenner/node-transferable-options.svg?branch=master)](https://travis-ci.org/stefanpenner/node-transferable-options)
 
 A serialization and deserialization scheme to transfer complex objects
 (typically function options) between multiple node processes. The specific
