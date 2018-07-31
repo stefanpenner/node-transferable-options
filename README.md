@@ -2,9 +2,7 @@
 [![Build Status](https://travis-ci.org/stefanpenner/node-transferable-options.svg?branch=master)](https://travis-ci.org/stefanpenner/node-transferable-options)
 
 A serialization and deserialization scheme to transfer complex objects
-(typically function options) between multiple node processes. The specific
-use-case, although more are possible, is to allow easy transfering of Babel or
-HTMLBars configuration to sub-processes to utilize parallelization.
+(typically options for babel or htmlbar transforms, or the transforms themselves) between multiple node processes.
 
 Although POJO's which restrict themselves to pure JSON can easily be
 serializable, both Babel and HTMLBars, allow passing of functions. Functions
