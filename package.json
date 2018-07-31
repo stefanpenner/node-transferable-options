@@ -1,0 +1,17 @@
+{
+  "name": "node-transferable-options",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:stefanpenner/node-transferable-options",
+  "author": "Stefan Penner <stefan.penner@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "amd-name-resolver": "^1.2.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests/*-test.js tests/**/*-test.js"
+  }
+}
